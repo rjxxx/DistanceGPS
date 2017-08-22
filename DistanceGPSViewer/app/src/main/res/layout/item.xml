@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingBottom="10dp"
+    android:paddingTop="10dp">
+
+    <ImageView
+        android:id="@+id/ivImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:contentDescription="@string/icon"
+        android:layout_margin="5dp"
+        android:scaleType="fitXY"
+        android:minWidth="80dp"
+        android:minHeight="80dp">
+    </ImageView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:id="@+id/linearLayout"
+        android:layout_alignTop="@+id/ivImage"
+        android:layout_toRightOf="@+id/ivImage"
+        android:layout_toEndOf="@+id/ivImage"
+        android:layout_marginLeft="5dp"
+        android:layout_alignBottom="@+id/ivImage">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Имя:"
+            android:textSize="15sp"
+            android:layout_marginBottom="5dp">
+        </TextView>
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="IP:"
+            android:textSize="15sp"
+            android:layout_marginBottom="5dp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GPS:"
+            android:textSize="15sp"
+            android:layout_marginBottom="5dp">
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:layout_alignTop="@+id/linearLayout"
+        android:layout_alignRight="@+id/linearLayout2"
+        android:layout_alignEnd="@+id/linearLayout2"
+        android:layout_toRightOf="@+id/linearLayout"
+        android:layout_toEndOf="@+id/linearLayout"
+        android:layout_marginLeft="10dp"
+        android:layout_alignBottom="@+id/linearLayout">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone 1"
+            android:textSize="15sp"
+            android:layout_marginBottom="5dp">
+        </TextView>
+        <TextView
+            android:id="@+id/ip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="255.255.255.255"
+            android:textSize="15sp"
+            android:layout_marginBottom="5dp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/isEnableGPS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Включен"
+            android:textSize="15sp"
+            android:layout_marginBottom="5dp">
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_below="@+id/ivImage"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:id="@+id/linearLayout2">
+
+        <TextView
+            android:id="@+id/distance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="До цели 300 метров"
+            android:textSize="25sp"
+            android:layout_marginTop="7dp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/accuracy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Погрешность: 3 метра"
+            android:textSize="18sp">
+        </TextView>
+    </LinearLayout>
+
+</RelativeLayout>

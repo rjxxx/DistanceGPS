@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">DistanceGPS</string>
+
+    <string name="action_settings">Настройки</string>
+    <string name="stop_vibrate">Остановить вибрирование</string>
+    <string name="connect_button">Подключиться</string>
+    <string name="ServerError">Нет соединения с сервером</string>
+    <string name="NoInternet">Отказано в соединении</string>
+    <string name="Connecting">Соединение...</string>
+    <string name="Connected">Связь установлена</string>
+    <string name="NoConnected">Отключено</string>
+    <string name="ReConnect">Ошибка! Переподключаемся</string>
+    <string name="disconnect">Отключиться</string>
+    <string name="Connect">Подключиться</string>
+    <string name="Fill_fields">Заполните все поля</string>
+    <string name="No_connection">Нет соединения</string>
+    <string name="Exit">Выход: Вы уверены?</string>
+    <string name="Yes">Да</string>
+    <string name="No">Нет</string>
+    <string name="isOnline">Нет подключения к интернету</string>
+</resources>

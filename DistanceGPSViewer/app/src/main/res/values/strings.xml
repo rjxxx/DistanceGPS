@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Distance GPS Viewer</string>
+
+    <string name="action_settings">Настройки</string>
+    <string name="stop_vibrate">Остановить вибрирование</string>
+    <string name="connect_button">Подключиться</string>
+    <string name="ServerError">Нет соединения с сервером</string>
+    <string name="NoInternet">Отказано в соединении</string>
+    <string name="Connecting">Соединение...</string>
+    <string name="Connected">Связь установлена</string>
+    <string name="NoConnected">Отключено</string>
+    <string name="ReConnect">Ошибка! Переподключаемся</string>
+    <string name="disconnect">Отключиться</string>
+    <string name="Connect">Подключиться</string>
+    <string name="Fill_fields">Заполните все поля</string>
+    <string name="Exit">Выход: Вы уверены?</string>
+    <string name="Yes">Да</string>
+    <string name="No">Нет</string>
+    <string name="isOnline">Нет подключения к интернету</string>
+
+
+    <string name="gpsOn">Включен</string>
+    <string name="gpsOff">Отключен</string>
+    <string name="gpsOnFindingCoordinates">Включен, опредление координат</string>
+    <string name="gpsOnReceiveCoordinates">Включен, координаты получены</string>
+
+    <string name="gpsNoCoordinates">Координаты недоступны</string>
+    <string name="gpsFindingCoordinates">Опредление координат</string>
+    <string name="gpsReceiveCoordinates">Координаты получены</string>
+
+    <string name="gpsNoTracking">Отслеживание отключено</string>
+
+    <string name="icon">Icon</string>
+</resources>
